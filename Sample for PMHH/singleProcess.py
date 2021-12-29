@@ -32,7 +32,7 @@ SW1 = np.array([0.314, 0.34, 0.335, 0.33, 0.322, 0.321, 0.32, 0.32,
 SW2 = np.array([0.379, 0.40, 0.415, 0.41, 0.405, 0.401, 0.4, 0.399,
                0.398,0.397, 0.397, 0.396])
 concs1t=np.array([-9.36,-11.41,-11.67,-11.65,-11.86])
-concs2t=np.array([-10.85,-11.32,-11.34,-11.32,-11.32])
+concs2t=np.array([-10.85,-11.32,-11.34,-11.45,-11.5])
 def mae(simulation_s, evaluation):
     mae_ = (np.sum(abs(evaluation - simulation_s), dtype=np.float64) /
                 12)
